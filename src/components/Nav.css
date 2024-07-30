@@ -1,0 +1,52 @@
+/* NavDropdown.css */
+
+/* Style the caret (dropdown indicator) */
+.navbar-nav .dropdown-toggle::after {
+  color: white !important;
+}
+
+/* Optional: Style the dropdown menu */
+.dropdown-menu {
+  background-color: #000000;  /* Example background color */
+  border: 4px groove white;
+  padding: 10px 30px;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23ffffff' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.dropdown-item-custom {
+  padding: 10px 20px;
+  border: px outset #000000;
+  border-radius: 30px;
+  margin-bottom: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.dropdown-item-custom:hover {
+  background-color: #f8f9fa;
+  border-color: #007bff;
+}
+
+.nav-link-custom {
+  color: #ffffff;
+  background-color: #007bff;
+  border: 4px outset #000;
+  border-radius: 0px;
+  padding: 4px 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.nav-link-custom h6, .nav-link-custom h5 {
+  margin: 0;
+}
+
+.nav-link-custom img {
+  margin-left: 4px;
+}
+
